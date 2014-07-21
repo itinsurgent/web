@@ -18,6 +18,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    NSString *fullURL = @"http://sneg.info/dev.php";
+    
+    NSURL *url =[NSURL URLWithString:fullURL];
+
+    NSURLRequest *requestObj =[NSURLRequest requestWithURL:url];
+
+    [_viewWeb loadRequest:requestObj];
+    
+    /*NSURL *myURL = [NSURL URLWithString:@"http://google.com"];
+    NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
+    [MYviewWeb loadRequest:myRequest];*/
+    
 }
 
 - (void)didReceiveMemoryWarning

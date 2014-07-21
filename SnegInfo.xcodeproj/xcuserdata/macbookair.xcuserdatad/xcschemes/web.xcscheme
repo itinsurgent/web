@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D03A29AE181C419F003B0AF0"
                BuildableName = "web.app"
                BlueprintName = "web"
-               ReferencedContainer = "container:web.xcodeproj">
+               ReferencedContainer = "container:SnegInfo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D03A29CF181C419F003B0AF0"
                BuildableName = "webTests.xctest"
                BlueprintName = "webTests"
-               ReferencedContainer = "container:web.xcodeproj">
+               ReferencedContainer = "container:SnegInfo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "D03A29AE181C419F003B0AF0"
             BuildableName = "web.app"
             BlueprintName = "web"
-            ReferencedContainer = "container:web.xcodeproj">
+            ReferencedContainer = "container:SnegInfo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "D03A29AE181C419F003B0AF0"
             BuildableName = "web.app"
             BlueprintName = "web"
-            ReferencedContainer = "container:web.xcodeproj">
+            ReferencedContainer = "container:SnegInfo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "D03A29AE181C419F003B0AF0"
             BuildableName = "web.app"
             BlueprintName = "web"
-            ReferencedContainer = "container:web.xcodeproj">
+            ReferencedContainer = "container:SnegInfo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
